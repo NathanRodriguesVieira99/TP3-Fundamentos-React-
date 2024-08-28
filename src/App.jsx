@@ -11,12 +11,8 @@ function App() {
 
   return (
     <div>
-      {currentPage === 'home' && (
-        <Layout onNavigate={handleNavigation} />
-      )}
-      {currentPage === 'shop' && (
-        <Shop onNavigate={handleNavigation} />
-      )}
+      {currentPage === 'home' && <Layout onNavigate={handleNavigation} />}
+      {currentPage === 'shop' && <Shop onNavigate={handleNavigation} />}
     </div>
   );
 }

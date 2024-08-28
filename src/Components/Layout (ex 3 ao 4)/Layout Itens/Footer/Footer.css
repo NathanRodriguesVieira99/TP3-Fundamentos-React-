@@ -16,10 +16,8 @@
 
 .paiDaImg img {
   width: 150px;
-  height: 150px
+  height: 150px;
 }
-
-
 
 .paiDasRedes {
   display: flex;
@@ -33,7 +31,6 @@
 .icons {
   display: flex;
   margin-bottom: 5px;
-
 }
 
 .icons i {
@@ -43,27 +40,27 @@
 }
 
 .LinksNav {
-  margin: 10px; 
+  margin: 10px;
 }
 
 .linksFilhos ul {
   display: flex;
   flex-direction: column;
   padding: 0;
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 .linksFilhos li {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .linksFilhos a {
-  color: black; 
-  text-decoration: none; 
+  color: black;
+  text-decoration: none;
   font-size: 16px;
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 
 .linksFilhos a:hover {
-  color: grey; 
+  color: grey;
 }
