@@ -17,10 +17,10 @@
 
 .card {
   margin: 35px;
-  width: 200px; 
+  width: 200px;
   padding: 20px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   background-color: white;
   align-items: center;
   flex-direction: column;

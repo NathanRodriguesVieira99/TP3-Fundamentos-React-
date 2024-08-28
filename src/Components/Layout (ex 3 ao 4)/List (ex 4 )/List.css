@@ -28,7 +28,7 @@ z-index: 1000;
   border-radius: 5px;
   font-size: 16px;
   margin-bottom: 15px;
-  margin: 10px;
+  margin: 16px;
 }
 
 .dropdown-button:hover {
@@ -47,7 +47,7 @@ z-index: 1000;
   left: 0;
   width: 300px;
   cursor: pointer;
-  margin: 6px;
+  margin: 19px;
 }
 
 .dropdown-menu ul {
