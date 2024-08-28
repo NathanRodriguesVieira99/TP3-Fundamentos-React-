@@ -1,39 +1,40 @@
 import React from "react";
 import "./Header.css";
 
-import Content from "../Content/Content";
-import Footer from "../Footer/Footer";
-import List from "../../List (ex 4 )/List";
-
-function Header() {
+function Header({ onNavigate }) {
 	return (
 		<>
 			<header className="cabecalho">
 				<nav>
-				
-					<ul className="lista">
-						<a href=".cabecalho">
-							<li>Home</li>
-						</a>
-						<a href=".members">
-							<li>Members</li>
-						</a>
-						<a href=".shop">
-							<li>Shop</li>
-						</a>
+					<ul className="lista" >
+						<li>
+							<a
+								href=".Home"
+								onClick={(e) => {
+									e.preventDefault();
+									onNavigate("home");
+								}}
+							>
+								Home
+							</a>
+						</li>
+						<li>
+							<a href=".">Members</a>
+						</li>
+						<li>
+							<a
+								href=".Shop"
+								onClick={(e) => {
+									e.preventDefault();
+									onNavigate("shop");
+								}}
+							>
+								Shop
+							</a>
+						</li>
 					</ul>
 				</nav>
-				
 			</header>
-			<List />
-			<div className="content">
-				<Content />
-				
-			</div>
-
-			<div className="footer">
-				<Footer />
-			</div>
 		</>
 	);
 }
