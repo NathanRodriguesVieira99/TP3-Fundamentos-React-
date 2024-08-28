@@ -4,27 +4,31 @@
   box-sizing: border-box;
 }
 
-.Odin{
+.Odin {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  
+  flex-wrap: wrap;
+  background-color: lightgrey;
+}
 
 
 .card {
   margin: 35px;
-  width: 200px;
-  height: 400px;
+  width: 200px; 
   padding: 20px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center; 
+  background-color: white;
   align-items: center;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border: 1px solid gray;
+  border: 1px solid rgb(71, 71, 71);
   border-radius: 10px;
 }
+
 
 .boys {
   text-align: center;
@@ -46,14 +50,14 @@
 
 .desc {
   text-align: center;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 
 .linkSpotify {
-  color: black; 
-  text-decoration: none; 
-  margin-left: 5px; 
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
   transition: transform .2s;
 }
 

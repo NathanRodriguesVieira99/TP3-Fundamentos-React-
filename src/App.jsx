@@ -1,9 +1,9 @@
-import Card from "./Components/Card/Card";
+import Layout from "./Components/Layout (ex 3 ao 4)/Layout";
 
 function App() {
 	return (
 		<>
-			<Card />
+			<Layout />
 		</>
 	);
 }

@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.paiDaImg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.paiDaImg img {
+  width: 150px;
+  height: 150px
+}
+
+
+
+.paiDasRedes {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 725px;
+}
+
+.icons {
+  display: flex;
+  margin-bottom: 5px;
+
+}
+
+.icons i {
+  color: black;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.LinksNav {
+  margin: 10px; 
+}
+
+.linksFilhos ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style-type: none; 
+}
+
+.linksFilhos li {
+  margin-bottom: 10px; 
+}
+
+.linksFilhos a {
+  color: black; 
+  text-decoration: none; 
+  font-size: 16px;
+  transition: color 0.3s; 
+}
+
+.linksFilhos a:hover {
+  color: grey; 
+}
