@@ -4,8 +4,36 @@ import "./Shop.css";
 import CardProps from "../CardProps (ex7)/CardProps";
 import Profile from "./Profile ( ex 6)/Profile";
 import Products from "./Products (ex 5)/Products";
+import CardPropsImg from "../CardPropsImg (ex 8)/CardPropsImg";
+import GunsGallery from "../GunsGallery (ex 9)/GunsGallery";
+
+// fotos do ex 9
+import Crossbow from "../Assets/Itens Shop/Guns/crossbow.png";
+import Fal from "../Assets/Itens Shop/Guns/fal.png";
+import Tec9 from "../Assets/Itens Shop/Guns/tec9.png";
 
 function Shop({ onNavigate }) {
+	const images = [
+		{
+			src: Crossbow,
+			title: "Crossbow",
+			price: " R$5.000,00 ",
+			description: "New Model",
+		},
+		{
+			src: Fal,
+			title: "Fal",
+			price: "R$15.000,00",
+			description: "Sold Out",
+		},
+		{
+			src: Tec9,
+			title: "Tec-9",
+			price: " R$2.000,00",
+			description: "Sold Out",
+		},
+	];
+
 	return (
 		<>
 			<header>
@@ -30,14 +58,22 @@ function Shop({ onNavigate }) {
 					</a>
 				</nav>
 			</header>
-			<div>
+			<div style={{ display: "flex" }}>
 				<CardProps
 					titulo="Atenção!"
 					subtitulo="🔞🔞🔞"
 					conteudo="Site de vendas de armas, proibido para menores de 18"
 				/>
+				<CardPropsImg
+					imagem="https://lodge-cdn.ammunitiontogo.com/lodge/wp-content/uploads/BSS6016-web.jpg"
+					descricao="tambem temos munição"
+					link="https://www.linkedin.com/in/nathan-rodrigues-vieira-207747252/"
+				/>
 			</div>
-			<Products />
+			<div className="ItensShopGuns" style={{ display: "flex" }}>
+				<Products />
+				<GunsGallery images={images} />
+			</div>
 		</>
 	);
 }
