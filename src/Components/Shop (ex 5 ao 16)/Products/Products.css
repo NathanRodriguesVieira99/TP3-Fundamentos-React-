@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cardGuns {
+  margin: 35px;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 10px;
+}
+
+.titleProduto {
+  margin-bottom: 5px;
+  text-align: left;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.gunImg {
+  text-align: center;
+  padding: 0.5px;
+  margin-bottom: 20px;
+  transition: transform .2s;
+  border-radius: 5px;
+}
+
+.gunImg:hover {
+  transform: scale(1.1);
+}
+
+.price {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}

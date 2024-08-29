@@ -6,7 +6,7 @@ function Header({ onNavigate }) {
 		<>
 			<header className="cabecalho">
 				<nav>
-					<ul className="lista" >
+					<ul className="lista">
 						<li>
 							<a
 								href=".Home"
@@ -15,7 +15,7 @@ function Header({ onNavigate }) {
 									onNavigate("home");
 								}}
 							>
-								Home
+								Tour
 							</a>
 						</li>
 						<li>
