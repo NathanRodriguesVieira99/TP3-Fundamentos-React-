@@ -1,5 +1,11 @@
+/* Profile.css */
+
+* {
+  text-decoration: none;
+}
+
 .profile-container {
- margin: 10px;
+  margin: 10px;
   position: relative;
   display: inline-block;
 }
@@ -40,4 +46,10 @@
 
 .profile-dropdown p {
   margin: 5px 0;
+}
+
+
+.profile-header p {
+  color: black;
+  font-weight: bold;
 }

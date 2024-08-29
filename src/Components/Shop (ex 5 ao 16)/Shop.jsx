@@ -1,8 +1,8 @@
 import React from "react";
 import "./Shop.css";
 
-import Profile from "./Profile/Profile";
-import Products from "./Products/Products";
+import Profile from "./Profile ( ex 6)/Profile";
+import Products from "./Products (ex 5)/Products";
 
 function Shop({ onNavigate }) {
 	return (
@@ -10,17 +10,17 @@ function Shop({ onNavigate }) {
 			<header>
 				<nav>
 					<div className="navbar">
-						<a href="." className="logo">
+						<a href="#" className="logo">
 							Ammu Nation
 						</a>
-						<a href=".home" onClick={() => onNavigate("home")}>
+						<a href="home" onClick={() => onNavigate("home")}>
 							Home{" "}
 						</a>
-						<a href=".produtos">Products</a>
-						<a href=".sobre">About</a>
-						<a href=".contato">Contact</a>
+						<a href="#">Products</a>
+						<a href="#">About</a>
+						<a href="#">Contact</a>
 					</div>
-					<a href=".perfil">
+					<a href="#">
 						<Profile />
 					</a>
 				</nav>
